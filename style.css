@@ -1,4 +1,20 @@
 
-.intro .past {
-	font-size: 12px;
+h1 {
+	font-size: 24px
+}
+h2 {
+	font-size: 18px
+}
+
+.intro small {
+	font-size: 16px;
+}
+.intro ul {
+	list-style: none;
+}
+.intro li {
+	display: inline;
+}
+.intro li ~ li::before {
+  content: ', ';
 }
