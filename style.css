@@ -31,3 +31,8 @@ h2 {
 .freelance .company {
   flex: 2;
 }
+
+.skills .group {
+  display: inline-block;
+  vertical-align: top;
+}
