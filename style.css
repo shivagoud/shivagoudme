@@ -13,20 +13,20 @@ header address {
 }
 
 h1 {
-	font-size: 24px
+  font-size: 24px
 }
 h2 {
-	font-size: 18px
+  font-size: 18px
 }
 
 .intro small {
-	font-size: 16px;
+  font-size: 16px;
 }
 .intro ul {
-	list-style: none;
+  list-style: none;
 }
 .intro li {
-	display: inline;
+  display: inline;
 }
 .intro li ~ li::before {
   content: ', ';
@@ -41,13 +41,14 @@ h2 {
   flex: 1;
 }
 
-.freelance .company {
+.freelance .company, .projects .topic {
   flex: 2;
 }
-
 .skills .group {
   display: inline-block;
   vertical-align: top;
+  max-width: 24%;
+  overflow-wrap: anywhere;
 }
 
 .academic td {
