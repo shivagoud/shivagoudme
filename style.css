@@ -18,3 +18,16 @@ h2 {
 .intro li ~ li::before {
   content: ', ';
 }
+
+.position h2 {
+  display: flex;
+}
+
+.position h2 div {
+  display: inline-block;
+  flex: 1;
+}
+
+.freelance .company {
+  flex: 2;
+}
