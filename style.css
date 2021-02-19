@@ -49,3 +49,7 @@ h2 {
   display: inline-block;
   vertical-align: top;
 }
+
+.academic td {
+  padding-right: 32px;
+}
