@@ -41,9 +41,14 @@ h2 {
   flex: 1;
 }
 
-.freelance .company, .projects .topic {
+.freelance .company, .projects .topic, .por .company {
   flex: 2;
 }
+
+.por .role {
+  flex: 3;
+}
+
 .skills .group {
   display: inline-block;
   vertical-align: top;
